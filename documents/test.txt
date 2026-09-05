@@ -1,0 +1,3 @@
+My name is Javeria.
+I am a computer science student.
+This document is being used to test my RAG chatbot.
