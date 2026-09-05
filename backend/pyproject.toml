@@ -1,0 +1,18 @@
+[project]
+name = "rag-chatbot-backend"
+version = "0.1.0"
+description = "RAG Chatbot Backend"
+requires-python = "==3.12.*"
+
+dependencies = [
+    "fastapi[standard]",
+    "python-multipart",
+    "pymongo",
+    "python-dotenv",
+    "bcrypt",
+    "pypdf",
+    "requests"
+]
+
+[tool.fastapi]
+entrypoint = "main:app"
