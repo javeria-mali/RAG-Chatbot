@@ -6,7 +6,7 @@ requires-python = ">=3.14,<3.15"
 
 dependencies = [
     "fastapi[standard]>=0.115",
-    "fastapi-cli",
+    "fastapi-cli[standard]",
     "python-multipart",
     "pymongo",
     "python-dotenv",
