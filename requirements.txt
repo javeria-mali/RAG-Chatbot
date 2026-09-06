@@ -1,9 +1,8 @@
-fastapi
-uvicorn
+fastapi[standard]
+fastapi-cli[standard]
 python-multipart
 pymongo
 python-dotenv
 bcrypt
 pypdf
-streamlit
 requests
