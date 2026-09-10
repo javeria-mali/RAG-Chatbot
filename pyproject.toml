@@ -21,5 +21,3 @@ dependencies = [
 [tool.fastapi]
 entrypoint = "backend.main:app"
 
-[tool.setuptools]
-py-modules = ["main", "auth", "db"]
