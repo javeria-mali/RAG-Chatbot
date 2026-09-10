@@ -1,5 +1,6 @@
 
 
+
 import streamlit as st
 import requests
 import os
@@ -10,7 +11,7 @@ st.set_page_config(
     layout="centered"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://rag-chatbot-05e9770f.fastapicloud.dev"
 
 
 # =========================
